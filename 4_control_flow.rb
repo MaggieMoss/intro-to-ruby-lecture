@@ -1,17 +1,5 @@
-# if statements work to control the flow of our programs
-# if something is true - go do a, if it's false, do b 
+first_name = "Maggie"
+first_name_2 = "Martin"
 
-# when writing if statements we have to remember to have an end 
-# if condition is true -> run this piece of code
-if condition
-  # do something
-end
-
-# Example
-raining = true
-
-if raining 
-  puts "Bring an umbrella"
-else 
-  puts "Bring some sunglasses"
-end
+puts "Hello, #{first_name}"
+puts "Hello, #{first_name_2}"

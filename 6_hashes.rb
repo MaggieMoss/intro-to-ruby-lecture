@@ -1,11 +1,9 @@
-# HASHES
-
-# Hashes are a collection of key-value pairs
-person = {
-  first_name: "Martin", 
-  last_name: "Laws"
+# concert hash
+concert = {
+  artist: "Black Eyed Peas",
+  date: "January 4th, 2016",
+  price: 0.75,
+  location: "ACC"
 }
-
-# in this example first_name is the key and "Martin" is the value
-# we can access values in a hash like this:
-person[:first_name]
+puts concert[:price]
+puts concert[:location]
